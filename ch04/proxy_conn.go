@@ -5,7 +5,7 @@ import (
 	"net"
 )
 
-func proxyConn(source, destination string) error {
+func ProxyConn(source, destination string) error {
 	//1. 출발지 노드와 연결 생성
 	connSource, err := net.Dial("tcp", source)
 	if err != nil {
