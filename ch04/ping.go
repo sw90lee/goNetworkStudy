@@ -23,6 +23,7 @@ func int() {
 }
 
 func main() {
+
 	flag.Parse()
 
 	if flag.NFlag() != 1 {
